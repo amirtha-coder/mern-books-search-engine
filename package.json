@@ -1,0 +1,28 @@
+{
+  "name": "mern-books-search-engine",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server/server.js",
+    "start:server": "cd server && npm run watch",
+    "start:client": "cd client && npm start",
+    "install": "cd server && npm i && cd ../client && npm i",
+    "build": "cd client && npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amirtha-coder/mern-books-search-engine.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/amirtha-coder/mern-books-search-engine/issues"
+  },
+  "homepage": "https://github.com/amirtha-coder/mern-books-search-engine#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "concurrently": "^5.1.0"
+  }
+}
